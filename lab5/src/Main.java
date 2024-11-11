@@ -15,8 +15,8 @@ public class Main {
 //        task3();
 //        task4();
 //        task5();
-//        task6();
-        task7();
+        task6();
+//        task7();
 
     }
     public static void task3(){

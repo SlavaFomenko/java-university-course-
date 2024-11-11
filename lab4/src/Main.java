@@ -10,15 +10,15 @@ import java.util.ResourceBundle;
 
 public class Main {
     public static void main(String[] args) {
-//        this.task2();
+//            task2();
 //        task3();
 //        task4();
-//        task5();
-        task6();
+        task5();
+//        task6();
 
     }
 
-    public void task2(){
+    public static void task2(){
         String str = "I learn Java!!!";
 
         System.out.println("Останній символ: " + str.charAt(str.length() - 1));
@@ -114,9 +114,9 @@ public class Main {
     }
 
     public static void task5() {
-        Locale currentLocale = Locale.forLanguageTag("de-DE");
-//        Locale currentLocale = Locale.forLanguageTag("ua-UA");
-//        Locale currentLocale = Locale.forLanguageTag("en-US");
+//        Locale currentLocale = Locale.forLanguageTag("de-DE");
+//        Locale currentLocale = Locale.forLanguageTag("u-UA");
+        Locale currentLocale = Locale.forLanguageTag("en-US");
         ResourceBundle bundle = ResourceBundle.getBundle("resources.data", currentLocale);
 
         String dateTime = new SimpleDateFormat("dd.MM.yyyy HH:mm:ss").format(new Date());
